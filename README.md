@@ -40,3 +40,5 @@ Currrently it logs:
     Breaking Farmland
     
 To briefly explain how it works, it monitors scoreboard objectives for all the actions you want to log. When a player does something you want to log, the datapack summons a villager with a name describing the action exactly 1000 blocks above the player. It then spawns a splash potion of harming above the villager and sets the "owner" of the splash potion to the player. The potion kills the villager, and the villagers death message serves as the log entry.
+
+oh uh also this has nothing to do with the toolkit for manipulating tabular ASCII data with labelled fields using normal UNIX tools Vnlog, https://gitee.com/mirrors/vnlog . I probably could have googled the name before i decided on it but whatever.
