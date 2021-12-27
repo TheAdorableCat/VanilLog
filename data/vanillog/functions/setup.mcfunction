@@ -1,4 +1,4 @@
-#Run this function to set up the VanilLog datapack, creating the required scoreboard objectives.
+#Runs on load, creating the required scoreboard objectives.
 #objective to track opening chests
 scoreboard objectives add vlOpenChest minecraft.custom:minecraft.open_chest
 #objective to track breaking chests
