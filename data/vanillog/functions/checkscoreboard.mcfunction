@@ -47,3 +47,7 @@ execute as @a[scores={vlBreakNetheriteBlock = 1..}] at @s run function vanillog:
 execute as @a[scores={vlBreakBeacon = 1..}] at @s run function vanillog:handle/vlbreakbeacon
 #farmland
 execute as @a[scores={vlBreakFarmland = 1..}] at @s run function vanillog:handle/vlbreakfarmland
+#update y position score of potions
+execute as @e[type=minecraft:potion, tag=killpot] run execute store result score @s vlPotionYPos run data get entity @s Pos[1]
+#kill all "killpot" potions below Y level 850. Prevents any from potentially missing the villager and hitting a player.
+execute as @e[type=minecraft:potion, tag=killpot, scores={vlPotionYPos=..850}] run kill @s
