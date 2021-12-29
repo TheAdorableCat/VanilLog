@@ -1,3 +1,5 @@
+#say version and stuff when it first loads
+say Starting VanilLog v1.1 
 #Runs on load, creating the required scoreboard objectives.
 #objective to track opening chests
 scoreboard objectives add vlOpenChest minecraft.custom:minecraft.open_chest
@@ -48,3 +50,5 @@ scoreboard objectives add vlBreakNetheriteBlock minecraft.mined:minecraft.nether
 scoreboard objectives add vlBreakBeacon minecraft.mined:minecraft.beacon
 #farmland
 scoreboard objectives add vlBreakFarmland minecraft.mined:minecraft.farmland
+#a scoreboard objective to store y position of potions 
+scoreboard objectives add vlPotionYPos dummy
