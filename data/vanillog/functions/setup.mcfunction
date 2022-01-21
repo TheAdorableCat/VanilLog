@@ -1,5 +1,5 @@
 #say version and stuff when it first loads
-say Starting VanilLog v1.1 
+say Starting VanilLog v1.1.1 
 #Runs on load, creating the required scoreboard objectives.
 #objective to track opening chests
 scoreboard objectives add vlOpenChest minecraft.custom:minecraft.open_chest
