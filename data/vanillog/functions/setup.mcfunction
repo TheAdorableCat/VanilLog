@@ -1,8 +1,8 @@
 #say version and stuff when it first loads
 say Starting VanilLog v1.1.1 
 
-# Starts the checkscoreboard loop
-schedule function vanillog:checkscoreboard 10t replace
+# Starts the half second loop
+schedule function vanillog:half_second_clock 10t replace
 
 #Runs on load, creating the required scoreboard objectives.
 #objective to track opening chests
