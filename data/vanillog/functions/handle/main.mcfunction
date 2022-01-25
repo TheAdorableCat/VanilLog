@@ -1,9 +1,7 @@
-# Kill the villager with a potion
+# Kill the villager with a area effect cloud
+# AS: any player who has triggered a log, AT: @s
 
-# Summons a splash potion to kill the villager
-summon potion ~ ~1005 ~ {Tags: ["vlkill", "killpot"], Item: {id: "minecraft:splash_potion", Count: 1b, tag: {CustomPotionEffects: [{Id: 7b, Amplifier: 10b, Duration: 10}]}}}
-# Set the owner of the splash potion to the person who did the thing being logged. potentially could bug out if 2 people did the same thing at literally the exact same time
-tag @s add klThis
-execute as @e[type=potion,limit=1,tag=vlkill] run data modify entity @s Owner set from entity @p[tag=klThis] UUID
-tag @s remove klThis
-tag @e[type=minecraft:potion,tag=vlkill,limit=1] remove vlkill
+# Summons a area effect cloud to kill the villager
+summon minecraft:area_effect_cloud ~ ~1000 ~ {Radius: 0.5f, Duration: 6, Age: 4, Tags: ["vlKill"], Effects: [{Id: 7b, Amplifier: 16b, Duration: 1, ShowParticles: 0b}]}
+# Set the owner of the area effect cloud to the person who did the thing being logged
+execute as @e[type=minecraft:area_effect_cloud,tag=vlKill] run data modify entity @s Owner set from entity @p UUID

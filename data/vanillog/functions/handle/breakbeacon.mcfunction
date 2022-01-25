@@ -3,6 +3,6 @@
 # Reset scoreboard value
 scoreboard players reset @s vlBreakBeacon
 # Summons a villager exactly 1k blocks above the player with the description of what's being logged (chest opened, tnt placed, etc..) I chose a villager because their deaths are always recorded in the server log and they don't drop anything
-summon minecraft:villager ~ ~1000 ~ {CustomName:"\"VanilLog: Beacon Broken\"", NoAI:1b, Health:1f, Silent:1b}
+summon minecraft:villager ~ ~1000 ~ {CustomName: "\"VanilLog: Beacon Broken\"", NoAI: 1b, Silent: 1b}
 # Kill the villager with a potion
 function vanillog:handle/main

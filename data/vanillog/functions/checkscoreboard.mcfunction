@@ -1,4 +1,5 @@
 #This function checks all the scoreboard values each 10 ticks, then executes a function that logs something being done (flint and steel used, tnt placed, etc) and resets the value.
+# AS: @a, AT: @s
 
 #opening chests
 execute if score @s vlOpenChest matches 1.. run function vanillog:handle/openchest
