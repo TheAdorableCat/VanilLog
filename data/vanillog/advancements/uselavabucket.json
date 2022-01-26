@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:lava"
+      }
+    }
+  },
+  "rewards": {
+    "function": "vanillog:handle/uselavabucket"
+  }
+}
