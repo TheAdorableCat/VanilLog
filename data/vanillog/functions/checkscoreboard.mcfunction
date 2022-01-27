@@ -1,53 +1,33 @@
-#This function checks all the scoreboard values each tick, then executes a function that logs something being done (flint and steel used, tnt placed, etc) and resets the value.
-#opening chests
-execute as @a[scores={vlOpenChest = 1..}] at @s run function vanillog:handle/vlopenchest
+#This function checks all the scoreboard values each 10 ticks, then executes a function that logs something being done (flint and steel used, tnt placed, etc) and resets the value.
+# AS: @a, AT: @s
+
 #breaking chests
-execute as @a[scores={vlBreakChest = 1..}] at @s run function vanillog:handle/vlbreakchest
-#opening barrels
-execute as @a[scores={vlOpenBarrel = 1..}] at @s run function vanillog:handle/vlopenbarrel
+execute if score @s vlBreakChest matches 1.. run function vanillog:handle/breakchest
 #breaking barrels
-execute as @a[scores={vlBreakBarrel = 1..}] at @s run function vanillog:handle/vlbreakbarrel
-#opening shulker boxes
-execute as @a[scores={vlOpenShulkerBox = 1..}] at @s run function vanillog:handle/vlopenshulkerbox
+execute if score @s vlBreakBarrel matches 1.. run function vanillog:handle/breakbarrel
 #breaking shulker boxes
-execute as @a[scores={vlBreakShulkerBox = 1..}] at @s run function vanillog:handle/vlbreakshulkerbox
-#opening hoppers
-execute as @a[scores={vlOpenHopper = 1..}] at @s run function vanillog:handle/vlopenhopper
+execute if score @s vlBreakShulkerBox matches 1.. run function vanillog:handle/breakshulkerbox
 #breaking hoppers
-execute as @a[scores={vlBreakHopper = 1..}] at @s run function vanillog:handle/vlbreakhopper
-#placing TNT
-execute as @a[scores={vlPlaceTNT = 1..}] at @s run function vanillog:handle/vlplacetnt
+execute if score @s vlBreakHopper matches 1.. run function vanillog:handle/breakhopper
 #placing TNT minecarts
-execute as @a[scores={vlPlaceMinecartTNT = 1..}] at @s run function vanillog:handle/vlplaceminecarttnt
-#placing dispensers
-execute as @a[scores={vlPlaceDispenser = 1..}] at @s run function vanillog:handle/vlplacedispenser
+execute if score @s vlPlaceMinecartTNT matches 1.. run function vanillog:handle/placeminecarttnt
 #picking up item frames
-execute as @a[scores={vlPickUpItemFrame = 1..}] at @s run function vanillog:handle/vlpickupitemframe
+execute if score @s vlPickUpItemFrame matches 1.. run function vanillog:handle/pickupitemframe
 #picking up filled maps
-execute as @a[scores={vlPickUpFilledMap = 1..}] at @s run function vanillog:handle/vlpickupfilledmap
-#using lava buckets
-execute as @a[scores={vlUseLavaBucket = 1..}] at @s run function vanillog:handle/vluselavabucket
-#using water buckets
-execute as @a[scores={vlUseWaterBucket = 1..}] at @s run function vanillog:handle/vlusewaterbucket
-#using flint and steel
-execute as @a[scores={vlUseFlintSteel = 1..}] at @s run function vanillog:handle/vluseflintsteel
+execute if score @s vlPickUpFilledMap matches 1.. run function vanillog:handle/pickupfilledmap
 #using fire charges
-execute as @a[scores={vlUseFireCharge = 1..}] at @s run function vanillog:handle/vlusefirecharge
+execute if score @s vlUseFireCharge matches 1.. run function vanillog:handle/usefirecharge
 #iron blocks
-execute as @a[scores={vlBreakIronBlock = 1..}] at @s run function vanillog:handle/vlbreakironblock
+execute if score @s vlBreakIronBlock matches 1.. run function vanillog:handle/breakironblock
 #gold blocks
-execute as @a[scores={vlBreakGoldBlock = 1..}] at @s run function vanillog:handle/vlbreakgoldblock
+execute if score @s vlBreakGoldBlock matches 1.. run function vanillog:handle/breakgoldblock
 #diamond blocks
-execute as @a[scores={vlBreakDiamondBlock = 1..}] at @s run function vanillog:handle/vlbreakdiamondblock
+execute if score @s vlBreakDiamondBlock matches 1.. run function vanillog:handle/breakdiamondblock
 #emerald blocks
-execute as @a[scores={vlBreakEmeraldBlock = 1..}] at @s run function vanillog:handle/vlbreakemeraldblock
+execute if score @s vlBreakEmeraldBlock matches 1.. run function vanillog:handle/breakemeraldblock
 #netherite blocks
-execute as @a[scores={vlBreakNetheriteBlock = 1..}] at @s run function vanillog:handle/vlbreaknetheriteblock
+execute if score @s vlBreakNetheriteBlock matches 1.. run function vanillog:handle/breaknetheriteblock
 #beacons
-execute as @a[scores={vlBreakBeacon = 1..}] at @s run function vanillog:handle/vlbreakbeacon
+execute if score @s vlBreakBeacon matches 1.. run function vanillog:handle/breakbeacon
 #farmland
-execute as @a[scores={vlBreakFarmland = 1..}] at @s run function vanillog:handle/vlbreakfarmland
-#update y position score of potions
-execute as @e[type=minecraft:potion, tag=killpot] run execute store result score @s vlPotionYPos run data get entity @s Pos[1]
-#kill all "killpot" potions below Y level 850. Prevents any from potentially missing the villager and hitting a player.
-execute as @e[type=minecraft:potion, tag=killpot, scores={vlPotionYPos=..850}] run kill @s
+execute if score @s vlBreakFarmland matches 1.. run function vanillog:handle/breakfarmland
