@@ -49,3 +49,49 @@ execute if score @s vlBreakNetheriteBlock matches 1.. run function vanillog:hand
 execute if score @s vlBreakBeacon matches 1.. run function vanillog:handle/breakbeacon
 #farmland
 execute if score @s vlBreakFarmland matches 1.. run function vanillog:handle/breakfarmland
+
+#picking up glow item frames
+execute if score @s vlPickUpGlowItemFrame matches 1.. run function vanillog:handle/pickupglowitemframe
+#placing hoppers
+execute if score @s vlPlaceHopper matches 1.. at @s run function vanillog:handle/placehopper
+#picking up hopper minecarts
+execute if score @s vlPickUpHopperMinecart matches 1.. run function vanillog:handle/pickuphopperminecart
+#picking up chest minecarts
+execute if score @s vlPickUpChestMinecart matches 1.. run function vanillog:handle/pickupchestminecart
+#placing hopper minecarts
+execute if score @s vlPlaceMinecartHopper matches 1.. run function vanillog:handle/placeminecarthopper
+#picking up chest boats
+execute if score @s vlPickUpOakCBoat matches 1.. run function vanillog:handle/pickupoakchestboat
+execute if score @s vlPickUpSpruceCBoat matches 1.. run function vanillog:handle/pickupsprucechestboat
+execute if score @s vlPickUpBirchCBoat matches 1.. run function vanillog:handle/pickupbirchchestboat
+execute if score @s vlPickUpJungleCBoat matches 1.. run function vanillog:handle/pickupjunglechestboat
+execute if score @s vlPickUpAcaciaCBoat matches 1.. run function vanillog:handle/pickupacaciachestboat
+execute if score @s vlPickUpDOakCBoat matches 1.. run function vanillog:handle/pickupdoakchestboat
+execute if score @s vlPickUpMangroveCBoat matches 1.. run function vanillog:handle/pickupmangrovechestboat
+execute if score @s vlPickUpCherryCBoat matches 1.. run function vanillog:handle/pickupcherrychestboat
+execute if score @s vlPickUpBambooCBoat matches 1.. run function vanillog:handle/pickupbamboochestboat
+#breaking signs
+execute if score @s vlBreakOaksign matches 1.. run function vanillog:handle/breakoaksign
+execute if score @s vlBreakSprucesign matches 1.. run function vanillog:handle/breaksprucesign
+execute if score @s vlBreakBirchsign matches 1.. run function vanillog:handle/breakbirchsign
+execute if score @s vlBreakJunglesign matches 1.. run function vanillog:handle/breakjunglesign
+execute if score @s vlBreakAcaciasign matches 1.. run function vanillog:handle/breakacaciasign
+execute if score @s vlBreakDOaksign matches 1.. run function vanillog:handle/breakdoaksign
+execute if score @s vlBreakMangrovesign matches 1.. run function vanillog:handle/breakmangrovesign
+execute if score @s vlBreakCherrysign matches 1.. run function vanillog:handle/breakcherrysign
+execute if score @s vlBreakBamboosign matches 1.. run function vanillog:handle/breakbamboosign
+execute if score @s vlBreakCrimsonsign matches 1.. run function vanillog:handle/breakcrimsonsign
+execute if score @s vlBreakWarpedsign matches 1.. run function vanillog:handle/breakwarpedsign
+#breaking hanging signs
+execute if score @s vlBreakOakhangingsign matches 1.. run function vanillog:handle/breakoakhangingsign
+execute if score @s vlBreakSprucehangingsign matches 1.. run function vanillog:handle/breaksprucehangingsign
+execute if score @s vlBreakBirchhangingsign matches 1.. run function vanillog:handle/breakbirchhangingsign
+execute if score @s vlBreakJunglehangingsign matches 1.. run function vanillog:handle/breakjunglehangingsign
+execute if score @s vlBreakAcaciahangingsign matches 1.. run function vanillog:handle/breakacaciahangingsign
+execute if score @s vlBreakDOakhangingsign matches 1.. run function vanillog:handle/breakdoakhangingsign
+execute if score @s vlBreakMangrovehangingsign matches 1.. run function vanillog:handle/breakmangrovehangingsign
+execute if score @s vlBreakCherryhangingsign matches 1.. run function vanillog:handle/breakcherryhangingsign
+execute if score @s vlBreakBamboohangingsign matches 1.. run function vanillog:handle/breakbamboohangingsign
+execute if score @s vlBreakCrimsonhangingsign matches 1.. run function vanillog:handle/breakcrimsonhangingsign
+execute if score @s vlBreakWarpedhangingsign matches 1.. run function vanillog:handle/breakwarpedhangingsign
+
