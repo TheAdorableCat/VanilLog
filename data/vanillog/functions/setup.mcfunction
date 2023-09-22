@@ -1,5 +1,5 @@
 #say version and stuff when it first loads
-say Starting VanilLog v1.3
+say Starting VanilLog v1.3.1
 
 # Starts the half second loop
 schedule function vanillog:half_second_clock 10t replace
