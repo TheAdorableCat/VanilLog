@@ -1,5 +1,5 @@
 #say version and stuff when it first loads
-say Starting VanilLog v1.4
+say Starting VanilLog v1.4 (1.18 Compatible)
 
 # Starts the half second loop
 schedule function vanillog:half_second_clock 10t replace
@@ -38,23 +38,23 @@ scoreboard objectives add vlPickUpGlowItemFrame minecraft.picked_up:minecraft.gl
 scoreboard objectives add vlPickUpFilledMap minecraft.picked_up:minecraft.filled_map
 #BOATS
 #objective to track picking up Oak chest boats
-scoreboard objectives add vlPickUpOakCBoat minecraft.picked_up:minecraft.oak_chest_boat
+#scoreboard objectives add vlPickUpOakCBoat minecraft.picked_up:minecraft.oak_chest_boat
 #objective to track picking up Spruce chest boats
-scoreboard objectives add vlPickUpSpruceCBoat minecraft.picked_up:minecraft.spruce_chest_boat
+#scoreboard objectives add vlPickUpSpruceCBoat minecraft.picked_up:minecraft.spruce_chest_boat
 #objective to track picking up Birch chest boats
-scoreboard objectives add vlPickUpBirchCBoat minecraft.picked_up:minecraft.birch_chest_boat
+#scoreboard objectives add vlPickUpBirchCBoat minecraft.picked_up:minecraft.birch_chest_boat
 #objective to track picking up Jungle chest boats
-scoreboard objectives add vlPickUpJungleCBoat minecraft.picked_up:minecraft.jungle_chest_boat
+#scoreboard objectives add vlPickUpJungleCBoat minecraft.picked_up:minecraft.jungle_chest_boat
 #objective to track picking up Acacia chest boats
-scoreboard objectives add vlPickUpAcaciaCBoat minecraft.picked_up:minecraft.acacia_chest_boat
+#scoreboard objectives add vlPickUpAcaciaCBoat minecraft.picked_up:minecraft.acacia_chest_boat
 #objective to track picking up Dark Oak chest boats
-scoreboard objectives add vlPickUpDOakCBoat minecraft.picked_up:minecraft.dark_oak_chest_boat
+#scoreboard objectives add vlPickUpDOakCBoat minecraft.picked_up:minecraft.dark_oak_chest_boat
 #objective to track picking up Mangrove chest boats
-scoreboard objectives add vlPickUpMangroveCBoat minecraft.picked_up:minecraft.mangrove_chest_boat
+#scoreboard objectives add vlPickUpMangroveCBoat minecraft.picked_up:minecraft.mangrove_chest_boat
 #objective to track picking up Cherry chest boats
-scoreboard objectives add vlPickUpCherryCBoat minecraft.picked_up:minecraft.cherry_chest_boat
+#scoreboard objectives add vlPickUpCherryCBoat minecraft.picked_up:minecraft.cherry_chest_boat
 #objective to track picking up Bamboo chest boats
-scoreboard objectives add vlPickUpBambooCBoat minecraft.picked_up:minecraft.bamboo_chest_raft
+#scoreboard objectives add vlPickUpBambooCBoat minecraft.picked_up:minecraft.bamboo_chest_raft
 
 #objective to track picking up chest minecarts
 scoreboard objectives add vlPickUpChestMinecart minecraft.picked_up:minecraft.chest_minecart
@@ -90,23 +90,23 @@ scoreboard objectives add vlBreakBirchsign minecraft.mined:minecraft.birch_sign
 scoreboard objectives add vlBreakJunglesign minecraft.mined:minecraft.jungle_sign
 scoreboard objectives add vlBreakAcaciasign minecraft.mined:minecraft.acacia_sign
 scoreboard objectives add vlBreakDOaksign minecraft.mined:minecraft.dark_oak_sign
-scoreboard objectives add vlBreakMangrovesign minecraft.mined:minecraft.mangrove_sign
-scoreboard objectives add vlBreakCherrysign minecraft.mined:minecraft.cherry_sign
-scoreboard objectives add vlBreakBamboosign minecraft.mined:minecraft.bamboo_sign
+#scoreboard objectives add vlBreakMangrovesign minecraft.mined:minecraft.mangrove_sign
+#scoreboard objectives add vlBreakCherrysign minecraft.mined:minecraft.cherry_sign
+#scoreboard objectives add vlBreakBamboosign minecraft.mined:minecraft.bamboo_sign
 scoreboard objectives add vlBreakCrimsonsign minecraft.mined:minecraft.crimson_sign
 scoreboard objectives add vlBreakWarpedsign minecraft.mined:minecraft.warped_sign
 #HANGING SIGNS
-scoreboard objectives add vlBreakOakhangingsign minecraft.mined:minecraft.oak_hanging_sign
-scoreboard objectives add vlBreakSprucehangingsign minecraft.mined:minecraft.spruce_hanging_sign
-scoreboard objectives add vlBreakBirchhangingsign minecraft.mined:minecraft.birch_hanging_sign
-scoreboard objectives add vlBreakJunglehangingsign minecraft.mined:minecraft.jungle_hanging_sign
-scoreboard objectives add vlBreakAcaciahangingsign minecraft.mined:minecraft.acacia_hanging_sign
-scoreboard objectives add vlBreakDOakhangingsign minecraft.mined:minecraft.dark_oak_hanging_sign
-scoreboard objectives add vlBreakMangrovehangingsign minecraft.mined:minecraft.mangrove_hanging_sign
-scoreboard objectives add vlBreakCherryhangingsign minecraft.mined:minecraft.cherry_hanging_sign
-scoreboard objectives add vlBreakBamboohangingsign minecraft.mined:minecraft.bamboo_hanging_sign
-scoreboard objectives add vlBreakCrimsonhangingsign minecraft.mined:minecraft.crimson_hanging_sign
-scoreboard objectives add vlBreakWarpedhangingsign minecraft.mined:minecraft.warped_hanging_sign
+#scoreboard objectives add vlBreakOakhangingsign minecraft.mined:minecraft.oak_hanging_sign
+#scoreboard objectives add vlBreakSprucehangingsign minecraft.mined:minecraft.spruce_hanging_sign
+#scoreboard objectives add vlBreakBirchhangingsign minecraft.mined:minecraft.birch_hanging_sign
+#scoreboard objectives add vlBreakJunglehangingsign minecraft.mined:minecraft.jungle_hanging_sign
+#scoreboard objectives add vlBreakAcaciahangingsign minecraft.mined:minecraft.acacia_hanging_sign
+#scoreboard objectives add vlBreakDOakhangingsign minecraft.mined:minecraft.dark_oak_hanging_sign
+#scoreboard objectives add vlBreakMangrovehangingsign minecraft.mined:minecraft.mangrove_hanging_sign
+#scoreboard objectives add vlBreakCherryhangingsign minecraft.mined:minecraft.cherry_hanging_sign
+#scoreboard objectives add vlBreakBamboohangingsign minecraft.mined:minecraft.bamboo_hanging_sign
+#scoreboard objectives add vlBreakCrimsonhangingsign minecraft.mined:minecraft.crimson_hanging_sign
+#scoreboard objectives add vlBreakWarpedhangingsign minecraft.mined:minecraft.warped_hanging_sign
 #breaking Dispensers
 scoreboard objectives add vlBreakDispenser minecraft.mined:minecraft.dispenser
 #open dispensers
