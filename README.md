@@ -33,7 +33,7 @@ Currrently it logs:
     
     Using Flint and Steel and Fire Charges
     
-    Breaking Iron, Gold, Emerald, Diamond, and Netherite Blocks
+    Breaking Coal, Iron, Gold, Emerald, Diamond, and Netherite Blocks
     
     Breaking Beacons
     
@@ -50,6 +50,14 @@ Currrently it logs:
     Picking up Chest Minecarts
 
     Breaking any Sign or Hanging Sign variant
+
+    Breaking and Opening Furnaces, Smokers, and Blast Furnaces
+
+    Breaking Spawners
+
+    Breaking Lodestones
+
+    Using End Crystals
 
     
     
