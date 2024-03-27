@@ -1,5 +1,5 @@
 #say version and stuff when it first loads
-say Starting VanilLog v1.3.1
+say Starting VanilLog v1.4
 
 # Starts the half second loop
 schedule function vanillog:half_second_clock 10t replace
@@ -107,4 +107,51 @@ scoreboard objectives add vlBreakCherryhangingsign minecraft.mined:minecraft.che
 scoreboard objectives add vlBreakBamboohangingsign minecraft.mined:minecraft.bamboo_hanging_sign
 scoreboard objectives add vlBreakCrimsonhangingsign minecraft.mined:minecraft.crimson_hanging_sign
 scoreboard objectives add vlBreakWarpedhangingsign minecraft.mined:minecraft.warped_hanging_sign
+#breaking Dispensers
+scoreboard objectives add vlBreakDispenser minecraft.mined:minecraft.dispenser
+#open dispensers
+scoreboard objectives add vlOpenDispenser minecraft.custom:minecraft.inspect_dispenser
+#breaking Droppers
+scoreboard objectives add vlBreakDropper minecraft.mined:minecraft.dropper
+#open Droppers
+scoreboard objectives add vlOpenDropper minecraft.custom:minecraft.inspect_dropper
+#break Coal blocks
+scoreboard objectives add vlBreakCoalBlock minecraft.mined:minecraft.coal_block
+#breaking all Shulker Box color variants
+scoreboard objectives add vlBreakWhiteShulkerBox minecraft.mined:minecraft.white_shulker_box
+scoreboard objectives add vlBreakOrangeShulkerBox minecraft.mined:minecraft.orange_shulker_box
+scoreboard objectives add vlBreakMagentaShulkerBox minecraft.mined:minecraft.magenta_shulker_box
+scoreboard objectives add vlBreakLightBlueShulkerBox minecraft.mined:minecraft.light_blue_shulker_box
+scoreboard objectives add vlBreakYellowShulkerBox minecraft.mined:minecraft.yellow_shulker_box
+scoreboard objectives add vlBreakLimeShulkerBox minecraft.mined:minecraft.lime_shulker_box
+scoreboard objectives add vlBreakPinkShulkerBox minecraft.mined:minecraft.pink_shulker_box
+scoreboard objectives add vlBreakGrayShulkerBox minecraft.mined:minecraft.gray_shulker_box
+scoreboard objectives add vlBreakLightGrayShulkerBox minecraft.mined:minecraft.light_gray_shulker_box
+scoreboard objectives add vlBreakCyanShulkerBox minecraft.mined:minecraft.cyan_shulker_box
+scoreboard objectives add vlBreakPurpleShulkerBox minecraft.mined:minecraft.purple_shulker_box
+scoreboard objectives add vlBreakBlueShulkerBox minecraft.mined:minecraft.blue_shulker_box
+scoreboard objectives add vlBreakBrownShulkerBox minecraft.mined:minecraft.brown_shulker_box
+scoreboard objectives add vlBreakGreenShulkerBox minecraft.mined:minecraft.green_shulker_box
+scoreboard objectives add vlBreakRedShulkerBox minecraft.mined:minecraft.red_shulker_box
+scoreboard objectives add vlBreakBlackShulkerBox minecraft.mined:minecraft.black_shulker_box
+#Placing end crystals
+scoreboard objectives add vlPlaceEndCrystal minecraft.used:minecraft.end_crystal
+#break conduits
+scoreboard objectives add vlBreakConduit minecraft.mined:minecraft.conduit
+#break lodestones
+scoreboard objectives add vlBreakLodestone minecraft.mined:minecraft.lodestone
+#break spawners
+scoreboard objectives add vlBreakSpawner minecraft.mined:minecraft.spawner
+#break furnace
+scoreboard objectives add vlBreakFurnace minecraft.mined:minecraft.furnace
+#break smoker
+scoreboard objectives add vlBreakSmoker minecraft.mined:minecraft.smoker
+#break blast furnace
+scoreboard objectives add vlBreakBlastFurnace minecraft.mined:minecraft.blast_furnace
+#open furnace
+scoreboard objectives add vlOpenFurnace minecraft.custom:minecraft.interact_with_furnace
+#open smoker
+scoreboard objectives add vlOpenSmoker minecraft.custom:minecraft.interact_with_smoker
+#open blast furnace
+scoreboard objectives add vlOpenBlastFurnace minecraft.custom:minecraft.interact_with_blast_furnace
 

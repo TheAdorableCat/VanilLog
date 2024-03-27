@@ -94,4 +94,50 @@ execute if score @s vlBreakCherryhangingsign matches 1.. run function vanillog:h
 execute if score @s vlBreakBamboohangingsign matches 1.. run function vanillog:handle/breakbamboohangingsign
 execute if score @s vlBreakCrimsonhangingsign matches 1.. run function vanillog:handle/breakcrimsonhangingsign
 execute if score @s vlBreakWarpedhangingsign matches 1.. run function vanillog:handle/breakwarpedhangingsign
-
+#breaking Dispensers
+execute if score @s vlBreakDispenser matches 1.. run function vanillog:handle/breakdispenser
+#open dispensers
+execute if score @s vlOpenDispenser matches 1.. run function vanillog:handle/opendispenser
+#break Droppers
+execute if score @s vlBreakDropper matches 1.. run function vanillog:handle/breakdropper
+#open Droppers
+execute if score @s vlOpenDropper matches 1.. run function vanillog:handle/opendropper
+#break Coal Blocks
+execute if score @s vlBreakCoalBlock matches 1.. run function vanillog:handle/breakcoalblock
+#breaking all shulker box color variants
+execute if score @s vlBreakWhiteShulkerBox matches 1.. run function vanillog:handle/breakwhiteshulkerbox
+execute if score @s vlBreakOrangeShulkerBox matches 1.. run function vanillog:handle/breakorangeshulkerbox
+execute if score @s vlBreakMagentaShulkerBox matches 1.. run function vanillog:handle/breakmagentashulkerbox
+execute if score @s vlBreakLightBlueShulkerBox matches 1.. run function vanillog:handle/breaklightblueshulkerbox
+execute if score @s vlBreakYellowShulkerBox matches 1.. run function vanillog:handle/breakyellowshulkerbox
+execute if score @s vlBreakLimeShulkerBox matches 1.. run function vanillog:handle/breaklimeshulkerbox
+execute if score @s vlBreakPinkShulkerBox matches 1.. run function vanillog:handle/breakpinkshulkerbox
+execute if score @s vlBreakGrayShulkerBox matches 1.. run function vanillog:handle/breakgrayshulkerbox
+execute if score @s vlBreakLightGrayShulkerBox matches 1.. run function vanillog:handle/breaklightgrayshulkerbox
+execute if score @s vlBreakCyanShulkerBox matches 1.. run function vanillog:handle/breakcyanshulkerbox
+execute if score @s vlBreakPurpleShulkerBox matches 1.. run function vanillog:handle/breakpurpleshulkerbox
+execute if score @s vlBreakBlueShulkerBox matches 1.. run function vanillog:handle/breakblueshulkerbox
+execute if score @s vlBreakBrownShulkerBox matches 1.. run function vanillog:handle/breakbrownshulkerbox
+execute if score @s vlBreakGreenShulkerBox matches 1.. run function vanillog:handle/breakgreenshulkerbox
+execute if score @s vlBreakRedShulkerBox matches 1.. run function vanillog:handle/breakredshulkerbox
+execute if score @s vlBreakBlackShulkerBox matches 1.. run function vanillog:handle/breakblackshulkerbox
+#Placing End Crystals
+execute if score @s vlPlaceEndCrystal matches 1.. run function vanillog:handle/placeendcrystal
+#break conduits
+execute if score @s vlBreakConduit matches 1.. run function vanillog:handle/breakconduit
+#break lodestones
+execute if score @s vlBreakLodestone matches 1.. run function vanillog:handle/breaklodestone
+#break spawners
+execute if score @s vlBreakSpawner matches 1.. run function vanillog:handle/breakspawner
+#break furnaces
+execute if score @s vlBreakFurnace matches 1.. run function vanillog:handle/breakfurnace
+#break smokers
+execute if score @s vlBreakSmoker matches 1.. run function vanillog:handle/breaksmoker
+#break blast furnaces
+execute if score @s vlBreakBlastFurnace matches 1.. run function vanillog:handle/breakblastfurnace
+#open furnaces
+execute if score @s vlOpenFurnace matches 1.. run function vanillog:handle/openfurnace
+#open smokers
+execute if score @s vlOpenSmoker matches 1.. run function vanillog:handle/opensmoker
+#open blast furnaces
+execute if score @s vlOpenBlastFurnace matches 1.. run function vanillog:handle/openblastfurnace
