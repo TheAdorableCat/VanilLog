@@ -59,6 +59,12 @@ Currrently it logs:
 
     Using End Crystals
 
+    Breaking Crafters
+
+    Breaking Vaults
+
+    Breaking Trial Spawners
+
     
     
 To briefly explain how it works, it monitors scoreboard objectives for all the actions you want to log. When a player does something you want to log, the datapack summons a baby pig with a name describing the action exactly 1000 blocks above the player. It then spawns a splash potion of harming above the villager and sets the "owner" of the splash potion to the player. The potion kills the pig, and the pigs death message serves as the log entry.
