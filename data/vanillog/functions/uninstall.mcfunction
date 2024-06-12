@@ -62,5 +62,36 @@ scoreboard objectives remove vlBreakCherryhangingsign
 scoreboard objectives remove vlBreakBamboohangingsign 
 scoreboard objectives remove vlBreakCrimsonhangingsign 
 scoreboard objectives remove vlBreakWarpedhangingsign 
+scoreboard objectives remove vlBreakDispenser
+scoreboard objectives remove vlOpenDispenser
+scoreboard objectives remove vlBreakDropper
+scoreboard objectives remove vlOpenDropper
+scoreboard objectives remove vlBreakCoalBlock
+scoreboard objectives remove vlBreakWhiteShulkerBox
+scoreboard objectives remove vlBreakOrangeShulkerBox
+scoreboard objectives remove vlBreakMagentaShulkerBox
+scoreboard objectives remove vlBreakLightBlueShulkerBox
+scoreboard objectives remove vlBreakYellowShulkerBox
+scoreboard objectives remove vlBreakLimeShulkerBox
+scoreboard objectives remove vlBreakPinkShulkerBox
+scoreboard objectives remove vlBreakGrayShulkerBox
+scoreboard objectives remove vlBreakLightGrayShulkerBox
+scoreboard objectives remove vlBreakCyanShulkerBox
+scoreboard objectives remove vlBreakPurpleShulkerBox
+scoreboard objectives remove vlBreakBlueShulkerBox
+scoreboard objectives remove vlBreakBrownShulkerBox
+scoreboard objectives remove vlBreakGreenShulkerBox
+scoreboard objectives remove vlBreakRedShulkerBox
+scoreboard objectives remove vlBreakBlackShulkerBox
+scoreboard objectives remove vlPlaceEndCrystal
+scoreboard objectives remove vlBreakConduit
+scoreboard objectives remove vlBreakLodestone
+scoreboard objectives remove vlBreakSpawner
+scoreboard objectives remove vlBreakFurnace
+scoreboard objectives remove vlBreakSmoker
+scoreboard objectives remove vlBreakBlastFurnace
+scoreboard objectives remove vlOpenFurnace
+scoreboard objectives remove vlOpenSmoker
+scoreboard objectives remove vlOpenBlastFurnace
 
 say Removed all vanillog scoreboard values. Disable vanillog to prevent them from being created again. 
