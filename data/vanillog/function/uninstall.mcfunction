@@ -93,5 +93,10 @@ scoreboard objectives remove vlBreakBlastFurnace
 scoreboard objectives remove vlOpenFurnace
 scoreboard objectives remove vlOpenSmoker
 scoreboard objectives remove vlOpenBlastFurnace
-
+scoreboard objectives remove vlBreakTrialSpawner
+scoreboard objectives remove vlBreakCrafter
+scoreboard objectives remove vlBreakVault
+scoreboard objectives remove vlBreakPOaksign
+scoreboard objectives remove vlBreakPOakhangingsign
+scoreboard objectives remove vlPickUpPOakCBoat
 say Removed all vanillog scoreboard values. Disable vanillog to prevent them from being created again. 

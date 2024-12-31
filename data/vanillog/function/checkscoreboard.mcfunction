@@ -70,6 +70,7 @@ execute if score @s vlPickUpDOakCBoat matches 1.. run function vanillog:handle/p
 execute if score @s vlPickUpMangroveCBoat matches 1.. run function vanillog:handle/pickupmangrovechestboat
 execute if score @s vlPickUpCherryCBoat matches 1.. run function vanillog:handle/pickupcherrychestboat
 execute if score @s vlPickUpBambooCBoat matches 1.. run function vanillog:handle/pickupbamboochestboat
+execute if score @s vlPickUpPOakCBoat matches 1.. run function vanillog:handle/pickuppoakchestboat
 #breaking signs
 execute if score @s vlBreakOaksign matches 1.. run function vanillog:handle/breakoaksign
 execute if score @s vlBreakSprucesign matches 1.. run function vanillog:handle/breaksprucesign
@@ -82,6 +83,7 @@ execute if score @s vlBreakCherrysign matches 1.. run function vanillog:handle/b
 execute if score @s vlBreakBamboosign matches 1.. run function vanillog:handle/breakbamboosign
 execute if score @s vlBreakCrimsonsign matches 1.. run function vanillog:handle/breakcrimsonsign
 execute if score @s vlBreakWarpedsign matches 1.. run function vanillog:handle/breakwarpedsign
+execute if score @s vlBreakPOaksign matches 1.. run function vanillog:handle/breakpoaksign
 #breaking hanging signs
 execute if score @s vlBreakOakhangingsign matches 1.. run function vanillog:handle/breakoakhangingsign
 execute if score @s vlBreakSprucehangingsign matches 1.. run function vanillog:handle/breaksprucehangingsign
@@ -94,6 +96,7 @@ execute if score @s vlBreakCherryhangingsign matches 1.. run function vanillog:h
 execute if score @s vlBreakBamboohangingsign matches 1.. run function vanillog:handle/breakbamboohangingsign
 execute if score @s vlBreakCrimsonhangingsign matches 1.. run function vanillog:handle/breakcrimsonhangingsign
 execute if score @s vlBreakWarpedhangingsign matches 1.. run function vanillog:handle/breakwarpedhangingsign
+execute if score @s vlBreakPOakhangingsign matches 1.. run function vanillog:handle/breakpoakhangingsign
 #breaking Dispensers
 execute if score @s vlBreakDispenser matches 1.. run function vanillog:handle/breakdispenser
 #open dispensers

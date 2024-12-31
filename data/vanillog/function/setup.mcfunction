@@ -1,5 +1,5 @@
 #say version and stuff when it first loads
-say Starting VanilLog v1.4.1
+say Starting VanilLog v1.4.2
 
 # Starts the half second loop
 schedule function vanillog:half_second_clock 10t replace
@@ -55,6 +55,8 @@ scoreboard objectives add vlPickUpMangroveCBoat minecraft.picked_up:minecraft.ma
 scoreboard objectives add vlPickUpCherryCBoat minecraft.picked_up:minecraft.cherry_chest_boat
 #objective to track picking up Bamboo chest boats
 scoreboard objectives add vlPickUpBambooCBoat minecraft.picked_up:minecraft.bamboo_chest_raft
+#objective to track picking up Pale Oak chest boats
+scoreboard objectives add vlPickUpPOakCBoat minecraft.picked_up:minecraft.pale_oak_chest_boat
 
 #objective to track picking up chest minecarts
 scoreboard objectives add vlPickUpChestMinecart minecraft.picked_up:minecraft.chest_minecart
@@ -95,6 +97,7 @@ scoreboard objectives add vlBreakCherrysign minecraft.mined:minecraft.cherry_sig
 scoreboard objectives add vlBreakBamboosign minecraft.mined:minecraft.bamboo_sign
 scoreboard objectives add vlBreakCrimsonsign minecraft.mined:minecraft.crimson_sign
 scoreboard objectives add vlBreakWarpedsign minecraft.mined:minecraft.warped_sign
+scoreboard objectives add vlBreakPOaksign minecraft.mined:minecraft.pale_oak_sign
 #HANGING SIGNS
 scoreboard objectives add vlBreakOakhangingsign minecraft.mined:minecraft.oak_hanging_sign
 scoreboard objectives add vlBreakSprucehangingsign minecraft.mined:minecraft.spruce_hanging_sign
@@ -107,6 +110,7 @@ scoreboard objectives add vlBreakCherryhangingsign minecraft.mined:minecraft.che
 scoreboard objectives add vlBreakBamboohangingsign minecraft.mined:minecraft.bamboo_hanging_sign
 scoreboard objectives add vlBreakCrimsonhangingsign minecraft.mined:minecraft.crimson_hanging_sign
 scoreboard objectives add vlBreakWarpedhangingsign minecraft.mined:minecraft.warped_hanging_sign
+scoreboard objectives add vlBreakPOakhangingsign minecraft.mined:minecraft.pale_oak_hanging_sign
 #breaking Dispensers
 scoreboard objectives add vlBreakDispenser minecraft.mined:minecraft.dispenser
 #open dispensers
