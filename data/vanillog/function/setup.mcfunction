@@ -1,5 +1,5 @@
 #say version and stuff when it first loads
-say Starting VanilLog v1.4.2
+say Starting VanilLog v1.4.3
 
 # Starts the half second loop
 schedule function vanillog:half_second_clock 10t replace
@@ -164,3 +164,14 @@ scoreboard objectives add vlBreakCrafter minecraft.mined:minecraft.crafter
 scoreboard objectives add vlBreakVault minecraft.mined:minecraft.vault
 #break trial spawner
 scoreboard objectives add vlBreakTrialSpawner minecraft.mined:minecraft.trial_spawner
+#break copper chests
+scoreboard objectives add vlBreakCopChest minecraft.mined:minecraft.copper_chest
+scoreboard objectives add vlBreakWaxCopChest minecraft.mined:minecraft.waxed_copper_chest
+scoreboard objectives add vlBreakExCopChest minecraft.mined:minecraft.exposed_copper_chest
+scoreboard objectives add vlBreakExWaxCopChest minecraft.mined:minecraft.waxed_exposed_copper_chest
+scoreboard objectives add vlBreakWeaCopChest minecraft.mined:minecraft.weathered_copper_chest
+scoreboard objectives add vlBreakWeaWaxCopChest minecraft.mined:minecraft.waxed_weathered_copper_chest
+scoreboard objectives add vlBreakOxCopChest minecraft.mined:minecraft.oxidized_copper_chest
+scoreboard objectives add vlBreakOxWaxCopChest minecraft.mined:minecraft.waxed_oxidized_copper_chest
+#kill copper golems
+scoreboard objectives add vlKillCopperGolem minecraft.killed:minecraft.copper_golem

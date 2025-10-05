@@ -99,4 +99,13 @@ scoreboard objectives remove vlBreakVault
 scoreboard objectives remove vlBreakPOaksign
 scoreboard objectives remove vlBreakPOakhangingsign
 scoreboard objectives remove vlPickUpPOakCBoat
+scoreboard objectives remove vlBreakCopChest
+scoreboard objectives remove vlBreakWaxCopChest
+scoreboard objectives remove vlBreakExCopChest
+scoreboard objectives remove vlBreakExWaxCopChest
+scoreboard objectives remove vlBreakWeaCopChest
+scoreboard objectives remove vlBreakWeaWaxCopChest
+scoreboard objectives remove vlBreakOxCopChest
+scoreboard objectives remove vlBreakOxWaxCopChest
+scoreboard objectives remove vlKillCopperGolem
 say Removed all vanillog scoreboard values. Disable vanillog to prevent them from being created again. 

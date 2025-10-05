@@ -150,3 +150,14 @@ execute if score @s vlBreakCrafter matches 1.. run function vanillog:handle/brea
 execute if score @s vlBreakVault matches 1.. run function vanillog:handle/breakvault
 #break trial spawner
 execute if score @s vlBreakTrialSpawner matches 1.. run function vanillog:handle/breaktrialspawner
+#break copper chests
+execute if score @s vlBreakCopChest matches 1.. run function vanillog:handle/breakcopchest
+execute if score @s vlBreakWaxCopChest matches 1.. run function vanillog:handle/breakwaxcopchest
+execute if score @s vlBreakExCopChest matches 1.. run function vanillog:handle/breakexcopchest
+execute if score @s vlBreakExWaxCopChest matches 1.. run function vanillog:handle/breakexwaxcopchest
+execute if score @s vlBreakWeaCopChest matches 1.. run function vanillog:handle/breakweacopchest
+execute if score @s vlBreakWeaWaxCopChest matches 1.. run function vanillog:handle/breakweawaxcopchest
+execute if score @s vlBreakOxCopChest matches 1.. run function vanillog:handle/breakoxcopchest
+execute if score @s vlBreakOxWaxCopChest matches 1.. run function vanillog:handle/breakoxwaxcopchest
+#kill copper golems
+execute if score @s vlKillCopperGolem matches 1.. run function vanillog:handle/killcoppergolem
